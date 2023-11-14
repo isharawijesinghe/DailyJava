@@ -10,6 +10,8 @@ public class LRUCache {
 
 
     public LRUCache(int capacity) {
+
+        TreeSet x = new TreeSet();
         dll = new LinkedList<>();
         hm = new HashMap<>();
         size = capacity;
